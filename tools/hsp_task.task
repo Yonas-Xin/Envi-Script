@@ -1,0 +1,12 @@
+{
+  "name": "hsp_task",
+  "base_class": "ENVITaskFromProcedure",
+  "routine": "hsp_task",
+  "display_name": "HSP Batch Preprocessing",
+  "description": "Batch preprocessing of AHSI L1A hyperspectral scenes from a JSON config file.",
+  "schema": "envitask_3.0",
+  "parameters": [
+    {"name": "CONFIG_FILE", "type": "string", "direction": "input", "required": true},
+    {"name": "SUMMARY", "type": "string", "direction": "output", "required": true}
+  ]
+}

@@ -1,0 +1,44 @@
+# OS and editor state
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/settings.json
+.idea/
+__pycache__/
+*.py[cod]
+
+# Private modules and bundled runtimes
+/denoise/
+
+# Local inputs, rasters and processing products
+/DEM/
+/data/
+/outputs/
+/.test/
+*.tif
+*.tiff
+*.geotiff
+*.jp2
+*.dat
+*.img
+*.hdr
+*.rpb
+*.shp
+*.shx
+*.dbf
+*.prj
+*.aux.xml
+*_step.sig
+
+# Generated launchers, logs, cached paths and GUI jobs
+*.sav
+*.exe
+*.dll
+*.pyd
+*.log
+/configs/last_gui.json
+/configs/gui_run/
+/tools/idl_path.txt
+/tools/build_stamp.txt

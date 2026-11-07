@@ -1,0 +1,2 @@
+{"name":"hsp_build","base_class":"IDLTaskFromProcedure","routine":"hsp_build","display_name":"Build launcher","description":"Build hsp_gui_app.sav","schema":"idltask_1.2",
+ "parameters":[{"name":"MSG","type":"string","direction":"output","required":true}]}

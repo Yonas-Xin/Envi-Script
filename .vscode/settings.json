@@ -1,0 +1,5 @@
+{
+  "[idl]": { "files.encoding": "gbk" },
+  "[prolog]": { "files.encoding": "gbk" },
+  "files.associations": { "*.pro": "idl" }
+}

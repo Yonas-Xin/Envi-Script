@@ -1,0 +1,63 @@
+{
+  "input_root": "",
+  "output_root": "",
+  "work_dir": "",
+  "scenes": [],
+  "skip_existing": 1,
+  "keep_intermediate": 0,
+  "test_subset": {
+    "enabled": 0,
+    "sub_rect": [800,800,1099,1099]
+  },
+  "denoise": {
+    "enabled": 0,
+    "method": "fasthyde"
+  },
+  "calibrate": {
+    "scale_factor": 0.10000000000000001
+  },
+  "bandprep": {
+    "drop_zero_gain": 1,
+    "vnir_max_nm": -1.0,
+    "swir_min_nm": 0.0,
+    "bad_ranges_nm": "1350-1415; 1820-1920",
+    "extra_bad_bands": "",
+    "range_enabled": 1,
+    "range_nm": [400,2500]
+  },
+  "atmcorr": {
+    "method": "FLAASH",
+    "quac_sensor": "Generic / Unknown Sensor"
+  },
+  "flaash": {
+    "atmosphere": "Auto",
+    "aerosol": "Rural",
+    "aerosol_retrieval": "2-Band (K-T)",
+    "visibility_km": 40.0,
+    "water_retrieval": 1,
+    "water_band_nm": 1135,
+    "polishing_width": 9,
+    "tile_size_mb": 0.0,
+    "sensor_altitude_km": -1.0,
+    "ground_elev_km": -1.0,
+    "modtran_resolution": 5.0,
+    "use_adjacency": 1,
+    "co2_ppm": 390.0,
+    "output_scale": 10000.0,
+    "keep_ancillary": 0
+  },
+  "resample": {
+    "enabled": 1,
+    "target": "ZY1E",
+    "reference_dir": "",
+    "tolerance_nm": 0.01
+  },
+  "ortho": {
+    "enabled": 1,
+    "dem": "",
+    "pixel_size": 30.0,
+    "resampling": "Nearest Neighbor",
+    "epsg": 0,
+    "grid_spacing": 10
+  }
+}

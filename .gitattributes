@@ -1,0 +1,12 @@
+# Preserve GBK-encoded IDL sources and Windows launcher line endings.
+*.pro -text
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.md text eol=lf
+*.json text eol=lf
+*.task text eol=lf
+*.py text eol=lf
+*.raw text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
